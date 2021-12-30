@@ -1,2 +1,2 @@
-# clock-controller
-A Raspberry Pi based controller for a vintage IBM remote clock
+# Clock Controller
+A Raspberry Pi based controller for a vintage IBM remote clock. This program also demonstrates how to use GPIO event-driven input and Python threading to asynchronously operate long-running functions from a set of pushbutton inputs. Button presses initiate activity on threads leaving the buttons active. By keeping the buttons active, long-running functions can be altered by subsequent button presses.
